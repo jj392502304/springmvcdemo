@@ -1,43 +1,77 @@
-2019-07-31 11:23:54  [ main:0 ] - [ DEBUG ]  ==========================准备生成文件...==========================
-2019-07-31 11:23:55  [ main:360 ] - [ DEBUG ]  创建目录： [D:\springmvcdemo/src/main/java\com\demo\entities]
-2019-07-31 11:23:55  [ main:360 ] - [ DEBUG ]  创建目录： [D:\springmvcdemo/src/main/java\com\demo\controller]
-2019-07-31 11:23:55  [ main:364 ] - [ DEBUG ]  创建目录： [D:\springmvcdemo/src/main/java\com\demo\service]
-2019-07-31 11:23:55  [ main:364 ] - [ DEBUG ]  创建目录： [D:\springmvcdemo/src/main/java\com\demo\mapper]
-2019-07-31 11:23:55  [ main:364 ] - [ DEBUG ]  创建目录： [D:\springmvcdemo/src/main/java\com\demo\service\impl]
-2019-07-31 11:23:55  [ main:367 ] - [ DEBUG ]  Couldn't find template in cache for "templates/mapper.xml.ftl"("zh_CN", UTF-8, parsed); will try to load it.
-2019-07-31 11:23:55  [ main:367 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.xml_zh_CN.ftl"): Not found
-2019-07-31 11:23:55  [ main:367 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.xml_zh.ftl"): Not found
-2019-07-31 11:23:55  [ main:367 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.xml.ftl"): Found
-2019-07-31 11:23:55  [ main:367 ] - [ DEBUG ]  Loading template for "templates/mapper.xml.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/mapper.xml.ftl"
-2019-07-31 11:23:55  [ main:442 ] - [ DEBUG ]  模板:/templates/mapper.xml.ftl;  文件:D:\springmvcdemo/src/main/resources/mapper/UserMapper.xml
-2019-07-31 11:23:55  [ main:446 ] - [ DEBUG ]  Couldn't find template in cache for "templates/entity.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
-2019-07-31 11:23:55  [ main:446 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/entity.java_zh_CN.ftl"): Not found
-2019-07-31 11:23:55  [ main:446 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/entity.java_zh.ftl"): Not found
-2019-07-31 11:23:55  [ main:446 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/entity.java.ftl"): Found
-2019-07-31 11:23:55  [ main:449 ] - [ DEBUG ]  Loading template for "templates/entity.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/entity.java.ftl"
-2019-07-31 11:23:55  [ main:524 ] - [ DEBUG ]  模板:/templates/entity.java.ftl;  文件:D:\springmvcdemo/src/main/java\com\demo\entities\User.java
-2019-07-31 11:23:55  [ main:524 ] - [ DEBUG ]  Couldn't find template in cache for "templates/mapper.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
-2019-07-31 11:23:55  [ main:524 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.java_zh_CN.ftl"): Not found
-2019-07-31 11:23:55  [ main:524 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.java_zh.ftl"): Not found
-2019-07-31 11:23:55  [ main:528 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.java.ftl"): Found
-2019-07-31 11:23:55  [ main:528 ] - [ DEBUG ]  Loading template for "templates/mapper.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/mapper.java.ftl"
-2019-07-31 11:23:55  [ main:528 ] - [ DEBUG ]  模板:/templates/mapper.java.ftl;  文件:D:\springmvcdemo/src/main/java\com\demo\mapper\UserMapper.java
-2019-07-31 11:23:55  [ main:528 ] - [ DEBUG ]  Couldn't find template in cache for "templates/service.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
-2019-07-31 11:23:55  [ main:528 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/service.java_zh_CN.ftl"): Not found
-2019-07-31 11:23:55  [ main:528 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/service.java_zh.ftl"): Not found
-2019-07-31 11:23:55  [ main:528 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/service.java.ftl"): Found
-2019-07-31 11:23:55  [ main:528 ] - [ DEBUG ]  Loading template for "templates/service.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/service.java.ftl"
-2019-07-31 11:23:55  [ main:531 ] - [ DEBUG ]  模板:/templates/service.java.ftl;  文件:D:\springmvcdemo/src/main/java\com\demo\service\IUserService.java
-2019-07-31 11:23:55  [ main:531 ] - [ DEBUG ]  Couldn't find template in cache for "templates/serviceImpl.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
-2019-07-31 11:23:55  [ main:531 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/serviceImpl.java_zh_CN.ftl"): Not found
-2019-07-31 11:23:55  [ main:531 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/serviceImpl.java_zh.ftl"): Not found
-2019-07-31 11:23:55  [ main:531 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/serviceImpl.java.ftl"): Found
-2019-07-31 11:23:55  [ main:531 ] - [ DEBUG ]  Loading template for "templates/serviceImpl.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/serviceImpl.java.ftl"
-2019-07-31 11:23:55  [ main:531 ] - [ DEBUG ]  模板:/templates/serviceImpl.java.ftl;  文件:D:\springmvcdemo/src/main/java\com\demo\service\impl\UserServiceImpl.java
-2019-07-31 11:23:55  [ main:531 ] - [ DEBUG ]  Couldn't find template in cache for "templates/controller.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
-2019-07-31 11:23:55  [ main:535 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/controller.java_zh_CN.ftl"): Not found
-2019-07-31 11:23:55  [ main:535 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/controller.java_zh.ftl"): Not found
-2019-07-31 11:23:55  [ main:535 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/controller.java.ftl"): Found
-2019-07-31 11:23:55  [ main:535 ] - [ DEBUG ]  Loading template for "templates/controller.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/controller.java.ftl"
-2019-07-31 11:23:55  [ main:535 ] - [ DEBUG ]  模板:/templates/controller.java.ftl;  文件:D:\springmvcdemo/src/main/java\com\demo\controller\UserController.java
-2019-07-31 11:23:55  [ main:535 ] - [ DEBUG ]  ==========================文件生成完成！！！==========================
+2019-08-17 16:10:16  [ main:0 ] - [ DEBUG ]  ==========================准备生成文件...==========================
+2019-08-17 16:11:36  [ main:0 ] - [ DEBUG ]  ==========================准备生成文件...==========================
+2019-08-17 16:11:37  [ main:536 ] - [ DEBUG ]  Couldn't find template in cache for "templates/mapper.xml.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-08-17 16:11:37  [ main:537 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.xml_zh_CN.ftl"): Not found
+2019-08-17 16:11:37  [ main:539 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.xml_zh.ftl"): Not found
+2019-08-17 16:11:37  [ main:540 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.xml.ftl"): Found
+2019-08-17 16:11:37  [ main:540 ] - [ DEBUG ]  Loading template for "templates/mapper.xml.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/mapper.xml.ftl"
+2019-08-17 16:11:37  [ main:629 ] - [ DEBUG ]  模板:/templates/mapper.xml.ftl;  文件:C:\Users\39250\Desktop\springmvcdemo/src/main/resources/mapper/UserMapper.xml
+2019-08-17 16:11:37  [ main:630 ] - [ DEBUG ]  Couldn't find template in cache for "templates/entity.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-08-17 16:11:37  [ main:630 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/entity.java_zh_CN.ftl"): Not found
+2019-08-17 16:11:37  [ main:631 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/entity.java_zh.ftl"): Not found
+2019-08-17 16:11:37  [ main:631 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/entity.java.ftl"): Found
+2019-08-17 16:11:37  [ main:631 ] - [ DEBUG ]  Loading template for "templates/entity.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/entity.java.ftl"
+2019-08-17 16:11:37  [ main:730 ] - [ DEBUG ]  模板:/templates/entity.java.ftl;  文件:C:\Users\39250\Desktop\springmvcdemo/src/main/java\com\demo\entities\User.java
+2019-08-17 16:11:37  [ main:731 ] - [ DEBUG ]  Couldn't find template in cache for "templates/mapper.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-08-17 16:11:37  [ main:733 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.java_zh_CN.ftl"): Not found
+2019-08-17 16:11:37  [ main:734 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.java_zh.ftl"): Not found
+2019-08-17 16:11:37  [ main:735 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.java.ftl"): Found
+2019-08-17 16:11:37  [ main:735 ] - [ DEBUG ]  Loading template for "templates/mapper.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/mapper.java.ftl"
+2019-08-17 16:11:37  [ main:740 ] - [ DEBUG ]  模板:/templates/mapper.java.ftl;  文件:C:\Users\39250\Desktop\springmvcdemo/src/main/java\com\demo\mapper\UserMapper.java
+2019-08-17 16:11:37  [ main:747 ] - [ DEBUG ]  Couldn't find template in cache for "templates/service.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-08-17 16:11:37  [ main:748 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/service.java_zh_CN.ftl"): Not found
+2019-08-17 16:11:37  [ main:748 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/service.java_zh.ftl"): Not found
+2019-08-17 16:11:37  [ main:748 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/service.java.ftl"): Found
+2019-08-17 16:11:37  [ main:748 ] - [ DEBUG ]  Loading template for "templates/service.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/service.java.ftl"
+2019-08-17 16:11:37  [ main:760 ] - [ DEBUG ]  模板:/templates/service.java.ftl;  文件:C:\Users\39250\Desktop\springmvcdemo/src/main/java\com\demo\service\UserService.java
+2019-08-17 16:11:37  [ main:760 ] - [ DEBUG ]  Couldn't find template in cache for "templates/serviceImpl.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-08-17 16:11:37  [ main:761 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/serviceImpl.java_zh_CN.ftl"): Not found
+2019-08-17 16:11:37  [ main:761 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/serviceImpl.java_zh.ftl"): Not found
+2019-08-17 16:11:37  [ main:761 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/serviceImpl.java.ftl"): Found
+2019-08-17 16:11:37  [ main:761 ] - [ DEBUG ]  Loading template for "templates/serviceImpl.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/serviceImpl.java.ftl"
+2019-08-17 16:11:37  [ main:788 ] - [ DEBUG ]  模板:/templates/serviceImpl.java.ftl;  文件:C:\Users\39250\Desktop\springmvcdemo/src/main/java\com\demo\service\impl\UserServiceImpl.java
+2019-08-17 16:11:37  [ main:791 ] - [ DEBUG ]  Couldn't find template in cache for "templates/controller.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-08-17 16:11:37  [ main:791 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/controller.java_zh_CN.ftl"): Not found
+2019-08-17 16:11:37  [ main:792 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/controller.java_zh.ftl"): Not found
+2019-08-17 16:11:37  [ main:793 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/controller.java.ftl"): Found
+2019-08-17 16:11:37  [ main:793 ] - [ DEBUG ]  Loading template for "templates/controller.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/controller.java.ftl"
+2019-08-17 16:11:37  [ main:810 ] - [ DEBUG ]  模板:/templates/controller.java.ftl;  文件:C:\Users\39250\Desktop\springmvcdemo/src/main/java\com\demo\controller\UserController.java
+2019-08-17 16:11:37  [ main:811 ] - [ DEBUG ]  ==========================文件生成完成！！！==========================
+2019-08-17 16:27:44  [ main:0 ] - [ DEBUG ]  ==========================准备生成文件...==========================
+2019-08-17 16:27:44  [ main:345 ] - [ DEBUG ]  Couldn't find template in cache for "templates/mapper.xml.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-08-17 16:27:44  [ main:346 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.xml_zh_CN.ftl"): Not found
+2019-08-17 16:27:44  [ main:348 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.xml_zh.ftl"): Not found
+2019-08-17 16:27:44  [ main:349 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.xml.ftl"): Found
+2019-08-17 16:27:44  [ main:349 ] - [ DEBUG ]  Loading template for "templates/mapper.xml.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/mapper.xml.ftl"
+2019-08-17 16:27:44  [ main:428 ] - [ DEBUG ]  模板:/templates/mapper.xml.ftl;  文件:C:\Users\39250\Desktop\springmvcdemo/src/main/resources/mapper/UserMapper.xml
+2019-08-17 16:27:44  [ main:428 ] - [ DEBUG ]  Couldn't find template in cache for "templates/entity.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-08-17 16:27:44  [ main:429 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/entity.java_zh_CN.ftl"): Not found
+2019-08-17 16:27:44  [ main:429 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/entity.java_zh.ftl"): Not found
+2019-08-17 16:27:44  [ main:429 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/entity.java.ftl"): Found
+2019-08-17 16:27:44  [ main:429 ] - [ DEBUG ]  Loading template for "templates/entity.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/entity.java.ftl"
+2019-08-17 16:27:44  [ main:523 ] - [ DEBUG ]  模板:/templates/entity.java.ftl;  文件:C:\Users\39250\Desktop\springmvcdemo/src/main/java\com\demo\entities\User.java
+2019-08-17 16:27:44  [ main:523 ] - [ DEBUG ]  Couldn't find template in cache for "templates/mapper.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-08-17 16:27:44  [ main:527 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.java_zh_CN.ftl"): Not found
+2019-08-17 16:27:44  [ main:527 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.java_zh.ftl"): Not found
+2019-08-17 16:27:44  [ main:528 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/mapper.java.ftl"): Found
+2019-08-17 16:27:44  [ main:528 ] - [ DEBUG ]  Loading template for "templates/mapper.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/mapper.java.ftl"
+2019-08-17 16:27:44  [ main:534 ] - [ DEBUG ]  模板:/templates/mapper.java.ftl;  文件:C:\Users\39250\Desktop\springmvcdemo/src/main/java\com\demo\mapper\UserMapper.java
+2019-08-17 16:27:44  [ main:535 ] - [ DEBUG ]  Couldn't find template in cache for "templates/service.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-08-17 16:27:44  [ main:535 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/service.java_zh_CN.ftl"): Not found
+2019-08-17 16:27:44  [ main:535 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/service.java_zh.ftl"): Not found
+2019-08-17 16:27:44  [ main:536 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/service.java.ftl"): Found
+2019-08-17 16:27:44  [ main:536 ] - [ DEBUG ]  Loading template for "templates/service.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/service.java.ftl"
+2019-08-17 16:27:44  [ main:539 ] - [ DEBUG ]  模板:/templates/service.java.ftl;  文件:C:\Users\39250\Desktop\springmvcdemo/src/main/java\com\demo\service\UserService.java
+2019-08-17 16:27:44  [ main:539 ] - [ DEBUG ]  Couldn't find template in cache for "templates/serviceImpl.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-08-17 16:27:44  [ main:540 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/serviceImpl.java_zh_CN.ftl"): Not found
+2019-08-17 16:27:44  [ main:540 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/serviceImpl.java_zh.ftl"): Not found
+2019-08-17 16:27:44  [ main:540 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/serviceImpl.java.ftl"): Found
+2019-08-17 16:27:44  [ main:540 ] - [ DEBUG ]  Loading template for "templates/serviceImpl.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/serviceImpl.java.ftl"
+2019-08-17 16:27:44  [ main:547 ] - [ DEBUG ]  模板:/templates/serviceImpl.java.ftl;  文件:C:\Users\39250\Desktop\springmvcdemo/src/main/java\com\demo\service\impl\UserServiceImpl.java
+2019-08-17 16:27:44  [ main:548 ] - [ DEBUG ]  Couldn't find template in cache for "templates/controller.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-08-17 16:27:44  [ main:548 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/controller.java_zh_CN.ftl"): Not found
+2019-08-17 16:27:44  [ main:548 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/controller.java_zh.ftl"): Not found
+2019-08-17 16:27:44  [ main:549 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("templates/controller.java.ftl"): Found
+2019-08-17 16:27:44  [ main:549 ] - [ DEBUG ]  Loading template for "templates/controller.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/D:/Reop/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/controller.java.ftl"
+2019-08-17 16:27:44  [ main:562 ] - [ DEBUG ]  模板:/templates/controller.java.ftl;  文件:C:\Users\39250\Desktop\springmvcdemo/src/main/java\com\demo\controller\UserController.java
+2019-08-17 16:27:44  [ main:562 ] - [ DEBUG ]  ==========================文件生成完成！！！==========================

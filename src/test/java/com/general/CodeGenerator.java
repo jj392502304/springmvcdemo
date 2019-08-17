@@ -8,18 +8,19 @@ import com.baomidou.mybatisplus.generator.config.*;
 import com.baomidou.mybatisplus.generator.config.po.TableInfo;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
+import org.apache.ibatis.io.Resources;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 
+/**
+ * @author jieyingjian
+ */
 public class CodeGenerator {
-
-    /**
-     * <p>
-     * 读取控制台内容
-     * </p>
-     */
-
     public static void main(String[] args) {
         // 代码生成器
         AutoGenerator mpg = new AutoGenerator();
@@ -32,18 +33,27 @@ public class CodeGenerator {
         gc.setActiveRecord(true);
         gc.setBaseResultMap(true);
         gc.setBaseColumnList(true);
+        gc.setFileOverride(true);
+        gc.setServiceName("%sService");
         gc.setIdType(IdType.AUTO);
         gc.setOpen(false);
         // gc.setSwagger2(true); 实体属性 Swagger2 注解
         mpg.setGlobalConfig(gc);
 
         // 数据源配置
+        Properties properties = new Properties();
+        try {
+        InputStream in = new FileInputStream(Resources.getResourceAsFile("db.properties"));
+            properties.load(in);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/test?useUnicode=true&useSSL=false&characterEncoding=utf8");
+        dsc.setUrl(properties.getProperty("jdbc_url"));
         // dsc.setSchemaName("public");
-        dsc.setDriverName("com.mysql.jdbc.Driver");
-        dsc.setUsername("root");
-        dsc.setPassword("root");
+        dsc.setDriverName(properties.getProperty("jdbc_driverClassName"));
+        dsc.setUsername(properties.getProperty("jdbc_username"));
+        dsc.setPassword(properties.getProperty("jdbc_password"));
         mpg.setDataSource(dsc);
 
         // 包配置
@@ -110,7 +120,8 @@ public class CodeGenerator {
         // 公共父类
         mpg.setStrategy(strategy);
         mpg.setTemplateEngine(new FreemarkerTemplateEngine());
-        strategy.setInclude("user");
+        strategy.setInclude("t_user");
+        strategy.setTablePrefix("t_");
         mpg.execute();
     }
 

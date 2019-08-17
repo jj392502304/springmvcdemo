@@ -12,12 +12,13 @@
     <mvc:annotation-driven />
 
     <!-- 让扫描spring扫描这个包下所有的类，让标注spring注解的类生效 -->
-    <context:component-scan base-package="com.demo.exception,com.demo.controller,com.demo.service.impl"></context:component-scan>
+    <context:component-scan base-package="com.demo.exception,com.demo.controller"></context:component-scan>
     <!-- 视图解析器 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/views/" />
+        <property name="prefix" value="/" />
         <property name="suffix" value=".jsp"></property>
     </bean>
     <bean id="globalException" class="com.demo.exception.GlobalException"/>
+    <!--引入redis配置文件-->
     <import resource="classpath:spring-data-redis.xml"/>
 </beans>

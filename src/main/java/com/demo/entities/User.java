@@ -1,8 +1,10 @@
 package com.demo.entities;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableField;
 import java.io.Serializable;
 
 /**
@@ -11,26 +13,23 @@ import java.io.Serializable;
  * </p>
  *
  * @author jieyingjian
- * @since 2019-07-31
+ * @since 2019-08-17
  */
+@TableName("t_user")
 public class User extends Model<User> {
 
     private static final long serialVersionUID = 1L;
 
-    private String name;
-
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
-    private Integer age;
+    @TableField("userName")
+    private String userName;
 
-    public String getName() {
-        return name;
-    }
+    private String password;
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    private Integer roleid;
+
     public Integer getId() {
         return id;
     }
@@ -38,12 +37,26 @@ public class User extends Model<User> {
     public void setId(Integer id) {
         this.id = id;
     }
-    public Integer getAge() {
-        return age;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setAge(Integer age) {
-        this.age = age;
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+    public Integer getRoleid() {
+        return roleid;
+    }
+
+    public void setRoleid(Integer roleid) {
+        this.roleid = roleid;
     }
 
     @Override
@@ -54,9 +67,10 @@ public class User extends Model<User> {
     @Override
     public String toString() {
         return "User{" +
-            "name=" + name +
-            ", id=" + id +
-            ", age=" + age +
+            "id=" + id +
+            ", userName=" + userName +
+            ", password=" + password +
+            ", roleid=" + roleid +
         "}";
     }
 }
